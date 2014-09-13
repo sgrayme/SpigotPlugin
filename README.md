@@ -13,9 +13,9 @@ There's a lot of examples of how to create a pom.xml file for Maven-enabled proj
 Clone this git repository into your Eclipse workspace and go to create a new Java project. Eclipse should automatically detect the settings provided by this project and create anything missing. You will need to enable the Maven nature, easy as right-clicking the project root in Package Explorer, hovering "Configure", and clicking "Convert to Maven Project".
 
 Additionally,
-# Rename the me.sgray.plugin.bukkitplugin package to reflect your own namespace. (tld.yourdomain.whatever)
-# Edit the pom.xml to reflect your project properties. Work slowly through this if you are still new to using Maven. A great reference about the available properties is at http://maven.apache.org/ref/3.2.3/maven-model/maven.html
-# Edit the plugin.yml file inside src/resources to add commands and permissions. Basic properties are handled with Maven property filters, notable by the ${property} syntax.
+1. Rename the me.sgray.plugin.bukkitplugin package to reflect your own namespace. (tld.yourdomain.whatever)
+2. Edit the pom.xml to reflect your project properties. Work slowly through this if you are still new to using Maven. A great reference about the available properties is at http://maven.apache.org/ref/3.2.3/maven-model/maven.html
+3. Edit the plugin.yml file inside src/resources to add commands and permissions. Basic properties are handled with Maven property filters, notable by the ${property} syntax.
 
 ## Troubleshooting
 
