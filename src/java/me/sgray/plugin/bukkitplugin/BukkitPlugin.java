@@ -6,6 +6,7 @@ public class BukkitPlugin extends JavaPlugin {
     @Override
     public void onDisable() {
         // Don't log disabling, Bukkit does that for you automatically!
+        //
     }
 
     @Override
