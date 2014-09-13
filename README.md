@@ -14,7 +14,7 @@ Clone this git repository into your Eclipse workspace and go to create a new Jav
 
 Additionally,
 
-1. Rename the me.sgray.plugin.bukkitplugin package to reflect your own namespace. (tld.yourdomain.whatever)
+1. Rename the me.sgray.template.bukkitplugin package to reflect your own namespace. (tld.yourdomain.whatever)
 2. Edit the pom.xml to reflect your project properties. Work slowly through this if you are still new to using Maven. A great reference about the available properties is at http://maven.apache.org/ref/3.2.3/maven-model/maven.html
 3. Edit the plugin.yml file inside src/resources to add commands and permissions. Basic properties are handled with Maven property filters, notable by the ${property} syntax.
 

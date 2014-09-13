@@ -1,4 +1,4 @@
-package me.sgray.plugin.bukkitplugin;
+package me.sgray.template.bukkitplugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
