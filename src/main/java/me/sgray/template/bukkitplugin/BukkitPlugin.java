@@ -13,7 +13,7 @@ public class BukkitPlugin extends JavaPlugin {
         // Don't log enabling, Bukkit does that for you automatically!
 
         // Add commands to plugin.yml if using one of following snippets.
-        // getCommand().setExecutor(this);
-        // getCommand().setExecutor(new MyPluginCommand(this));
+        // getCommand("command").setExecutor(this);
+        // getCommand("command").setExecutor(new MyPluginCommand(this));
     }
 }
