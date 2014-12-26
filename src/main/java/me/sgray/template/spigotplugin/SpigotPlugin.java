@@ -12,8 +12,7 @@ public class SpigotPlugin extends JavaPlugin {
     public void onEnable() {
         // Don't log enabling, Spigot does that for you automatically!
 
-        // Add commands to plugin.yml if using ONE of following snippets.
-        // getCommand("example").setExecutor(this);
+        // Commands enabled with following method must have entries in plugin.yml
         getCommand("example").setExecutor(new ExampleCommand(this));
     }
 }
